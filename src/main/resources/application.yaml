@@ -1,0 +1,11 @@
+currency: \[{ "id":"90","symbol":"BTC" },{ "id":"80","symbol":"ETH" },{ "id":"48543","symbol":"SOL" }]
+spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://localhost:3306/idf
+    username: root
+    password:
+    driverClassName: com.mysql.cj.jdbc.Driver
